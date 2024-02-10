@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Inconsolata;
+}
+body{
+    background-image: url('geometry.jpg');
+    opacity: 88%;
+}
+
+.button{
+    padding: 020px;
+    margin: -7px -3px;
+    border-radius: 8px; 
+    cursor: pointer;
+    width: 77px;
+    transition: 0.5s;
+    display: inline-block;
+    
+}
+
+.button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+
+.yellow {
+    background-color: rgb(250, 245, 97);
+}
+  
+.button:hover{
+    color: white;
+    background-color: rgb(101, 100, 100);
+}
+  
+.button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+  
+
+.row{
+    margin: 6px 0;
+}
+
+.row input{
+    margin: 0;
+    padding: 15px 84px;
+    border: 2px solid black;
+    border-radius: 8px;
+}

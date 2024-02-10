@@ -1,0 +1,32 @@
+.text-center {
+    text-align: center;
+    
+}
+
+.container{
+    color: white;
+    background-color: rgb(53, 53, 53);
+    border: 2px solid black;
+    border-radius: 18px;
+    padding-bottom: 30px;
+}
+.container .bg-red {
+    text-align: center;
+}
+
+.mx-auto {
+    margin: 0 36vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
