@@ -56,3 +56,25 @@ body{
     border: 2px solid black;
     border-radius: 8px;
 }
+
+
+
+
+
+/* -------------------------------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+    
+
+    .container{
+        align-items: start;
+        margin-left: 35px;
+        position: fixed;
+    }
+
+    .mx-auto{
+        
+    }
+
+
+}
